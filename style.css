@@ -15,17 +15,17 @@ li {
     padding: 5px;
 }
 
-/* #title {
-    color: rgb(50, 50, 50);
-    font-size: 4em;
-    padding: 20px;
-}  */
-
-h1 {
+#title {
     color: rgb(50, 50, 50);
     font-size: 4em;
     padding: 20px;
 } 
+
+/* h1 {
+    color: rgb(50, 50, 50);
+    font-size: 4em;
+    padding: 20px;
+}  */
 
 body {
     background-color: rgba(175,175,175,1);
@@ -43,4 +43,15 @@ h1, h2 {
 
 img {
     width: 500px;
+}
+
+.row1, .row2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#bahai {
+    display: flex;
+    justify-content: center;
 }
